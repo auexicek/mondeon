@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+
+body {
+    font-family: Overpass;
+    font-size: large;
+    margin: 0;
+    background-color: rgb(37, 37, 37);
+}
+
+#title {
+    color:white ;
+}
+
+#upside {
+    font-family: Nabla;
+    display: flex;
+    background: rgb(0, 28, 208);
+    align-items: center;
+}
+
+#upside div {
+    padding: 20px;
+}
+
+#upside div a {
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+
+    transition: all 0.5s;
+}
+
+#upside div a:hover{
+    background-color: rgb(0, 18, 132);
+}
+  
+#upside img {
+  height: 100px;
+}
+
+#upside img:hover {
+    padding: 2.5px 5px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+#contentL {
+    color: white;
+    padding-left: 30px;
+}
